@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/* Variables */
+:root{
+/* colores */
+--green-color: #7acc2d;
+--white-color: white;
+--black-color: #313337;
+/* tipografía */
+--normal:12px;
+/* espaciado */
+--space: 10px;
+/* box shadow */
+--box:0 0 1px #c1bcbc;
+}
+/* Variables */
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+} 
+
+p, label{
+    font-size: var(--normal);
+}
+
+nav{
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: var(--white-color);
+}
+
+.main_section{
+    padding: 15%;
+    text-align: center;
+    color: var(--black-color);
+    font-size: 17px;
+}
+
+.products{
+    background-image: url("../images/curve.png");
+    padding: 15%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 95px;
+    background-size: cover;
+}
+
+.product{
+    padding: 20px;
+    margin-top: -226px;
+}
+
+.content{
+    padding: 20px;
+    background-color: var(--white-color);
+    border-radius: 3px;
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+.img_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #5ea51c;
+}
+/* aqui comienzan los beneficios */
+.beneficios{
+    padding: 10%;
+    display: flex;
+}
+
+.beneficio{
+    text-align: center;
+    padding: 20px;
+}
+
+.beneficio img{
+        max-height: 100px;
+}
+
+.text_beneficio{
+    text-align: justify;
+}
+/* aqui acaban los beneficios */
+/* Aqui comienza las menciones */
+.mentions{
+    display: flex;
+    padding: 5%;
+}
+
+.mention img{
+    width: 100%;
+}
+
+h1.mention_tittle{
+    text-align: center;
+    color: var(--black-color);
+}
+
+.mention{
+    padding: var(--space);  
+}
+
+.content_mention{
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+.text_mention{
+    padding: var(--space);
+}
+
+/* aqui acaban las menciones */
+
+/* aqui comienza el formualrio de ventas */
+.modulo_pago {
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+
+
+.modulo_pago_images{
+    max-width: 100px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.data{
+    margin-top: var(--space);
+    margin-bottom: 5px;
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid grey;
+}
+
+.modulo_pago .main_button{
+    margin-top: 5px;
+}
+
+/* aqui acaba el formualrio de ventas */
+
+.footer{
+    display: flex;
+    background-color: #313337;
+    height: 40px;
+    padding:10px ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color:#ecd1d1;
+}
+
